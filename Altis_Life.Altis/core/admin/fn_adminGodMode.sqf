@@ -19,7 +19,8 @@ if(life_god) then {
 	life_god = false;
 	titleText ["God mode disabled","PLAIN"]; titleFadeOut 2;
 	player allowDamage true;
-} else {
+}; 
+else {
 	life_god = true;
 	titleText ["God mode enabled","PLAIN"]; titleFadeOut 2;
 	player allowDamage false;
